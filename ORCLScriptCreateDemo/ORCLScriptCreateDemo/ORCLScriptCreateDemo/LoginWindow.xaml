@@ -1,0 +1,48 @@
+﻿<Window x:Class="ORCLScriptCreateDemo.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       Height="369" Width="480" Background="#00000000"  Title="数据库对象脚本自动导出软件" ResizeMode="CanMinimize">
+    <Grid Background="#FFededed" Opacity="1">
+
+        <Label Content="请登录" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="25" Foreground="White" HorizontalAlignment="Left" Width="484" Margin="0,0,0,282">
+            <Label.Background>
+                <ImageBrush ImageSource="Images/login_title_bg.png"></ImageBrush>
+            </Label.Background>
+        </Label>
+        <Label Width="98" Height="50" FontSize="26" Margin="12,75,348,205">用户名:</Label>
+        <Label Width="99" Height="50" FontSize="26" Margin="34,141,325,139">密码:</Label>
+        <Label Width="98" Height="50" FontSize="26" Margin="34,204,326,76">主机:</Label>
+      
+        <Button Cursor="Hand" Name="btn_login" Opacity="1" Foreground="#FF7C7C03"  Height="50" MouseEnter="btn_login_MouseEnter" MouseLeave="btn_login_MouseLeave" Click="login_Click" Margin="102,260,97,20">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border ClipToBounds="True"  CornerRadius="5">
+                        <Label Name="tips_for_login" Content="登  录" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Foreground="White" >
+                            <Label.Background>
+                                <ImageBrush ImageSource="Images/未标题-1_03.gif"></ImageBrush>
+                            </Label.Background>
+
+                        </Label>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBox Margin="102,73,60,207" Width="296" Height="50" Padding="0 0 0 0" x:Name="tb_userid" HorizontalAlignment="Stretch" VerticalAlignment="Center" HorizontalContentAlignment="Left" FontSize="24" VerticalContentAlignment="Center" BorderThickness="0" Text="">
+            <TextBox.Background>
+                <ImageBrush ImageSource="Images/password.jpg"></ImageBrush>
+            </TextBox.Background>
+        </TextBox>
+        <PasswordBox Margin="0,141,68,139" Width="296" Height="50" x:Name="tb_pass" Padding="0 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Left" FontSize="24" VerticalContentAlignment="Center" BorderThickness="0">
+            <PasswordBox.Background>
+                <ImageBrush ImageSource="Images/password.jpg"></ImageBrush>
+            </PasswordBox.Background>
+        </PasswordBox>
+
+        <TextBox Margin="102,204,60,76" Width="296" Height="50" Padding="0 0 0 0" HorizontalAlignment="Stretch" VerticalAlignment="Center" HorizontalContentAlignment="Left" FontSize="24" VerticalContentAlignment="Center"  BorderThickness="0" Text="" x:Name="tb_server">
+            <TextBox.Background>
+                <ImageBrush ImageSource="Images/password.jpg"></ImageBrush>
+            </TextBox.Background>
+        </TextBox>
+
+    </Grid>
+</Window>

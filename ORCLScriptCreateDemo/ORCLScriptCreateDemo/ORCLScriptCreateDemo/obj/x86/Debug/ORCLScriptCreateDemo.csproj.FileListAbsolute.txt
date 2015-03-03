@@ -1,0 +1,79 @@
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\App.g.cs
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo_MarkupCompile.cache
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.g.resources
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.Properties.Resources.resources
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csproj.GenerateResource.Cache
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.exe
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.pdb
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.exe
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.pdb
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.baml
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.g.cs
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\Oracle.DataAccess.dll
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\System.Windows.Forms.dll
+C:\Users\guo\Documents\Visual Studio 2010\Projects\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csprojResolveAssemblyReference.cache
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.exe
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.pdb
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.exe
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.pdb
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\Oracle.DataAccess.dll
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\System.Windows.Forms.dll
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csprojResolveAssemblyReference.cache
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.baml
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.g.cs
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\App.g.cs
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo_MarkupCompile.cache
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.g.resources
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.Properties.Resources.resources
+C:\Users\guo\Desktop\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csproj.GenerateResource.Cache
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.exe
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.pdb
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.exe
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.pdb
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\Oracle.DataAccess.dll
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\System.Windows.Forms.dll
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csprojResolveAssemblyReference.cache
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.baml
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.baml
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.g.cs
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.g.cs
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\App.g.cs
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo_MarkupCompile.cache
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.g.resources
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.Properties.Resources.resources
+P:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csproj.GenerateResource.Cache
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.exe
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.pdb
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.exe
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.pdb
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\Oracle.DataAccess.dll
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\System.Windows.Forms.dll
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.baml
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.g.cs
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\App.g.cs
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo_MarkupCompile.cache
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.g.resources
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.Properties.Resources.resources
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csproj.GenerateResource.Cache
+C:\Users\guo\Desktop\ORCLScriptCreateDemo (1)\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csprojResolveAssemblyReference.cache
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.exe
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.pdb
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.exe
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\ORCLScriptCreateDemo.pdb
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\Oracle.DataAccess.dll
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\bin\Debug\System.Windows.Forms.dll
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.baml
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.baml
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\LoginWindow.g.cs
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\MainWindow.g.cs
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\App.g.cs
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo_MarkupCompile.cache
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.g.resources
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.Properties.Resources.resources
+G:\CX\ORCLScriptCreateDemo\ORCLScriptCreateDemo\obj\x86\Debug\ORCLScriptCreateDemo.csproj.GenerateResource.Cache
