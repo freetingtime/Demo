@@ -84,7 +84,6 @@ namespace ORCLScriptCreateDemo
             if (!WriteScirptToFile())
                 return;
 
-            
             if (System.Windows.MessageBox.Show("创建脚本写入完毕！失败" + _FailObjects.Count + "个！\n是否导出依赖的物理表？", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 //将依赖的物理表写入文件
