@@ -29,6 +29,7 @@ namespace ORCLScriptCreateDemo
                 this.RefrencedObject = new List<DBObject>();
             }
 
+//是否被选中
             private bool _IsSelected;
 
             public bool IsSelected
