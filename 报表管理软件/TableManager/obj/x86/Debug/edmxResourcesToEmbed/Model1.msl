@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="Model1" />
+  <Alias Key="Target" Value="Model1.Store" />
+  <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1StoreContainer">
+    <EntitySetMapping Name="column">
+      <EntityTypeMapping TypeName="Model1.column">
+        <MappingFragment StoreEntitySet="column">
+          <ScalarProperty Name="columnIdentify" ColumnName="columnIdentify" />
+          <ScalarProperty Name="columnId" ColumnName="columnId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="columnDB">
+      <EntityTypeMapping TypeName="Model1.columnDB">
+        <MappingFragment StoreEntitySet="columnDB">
+          <ScalarProperty Name="columnName" ColumnName="columnName" />
+          <ScalarProperty Name="columnDBId" ColumnName="columnDBId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="library">
+      <EntityTypeMapping TypeName="Model1.library">
+        <MappingFragment StoreEntitySet="library">
+          <ScalarProperty Name="libraryName" ColumnName="libraryName" />
+          <ScalarProperty Name="libraryId" ColumnName="libraryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="queryResult">
+      <EntityTypeMapping TypeName="Model1.queryResult">
+        <MappingFragment StoreEntitySet="queryResult">
+          <ScalarProperty Name="queryinf" ColumnName="queryinf" />
+          <ScalarProperty Name="queryResultId" ColumnName="queryResultId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="table">
+      <EntityTypeMapping TypeName="Model1.table">
+        <MappingFragment StoreEntitySet="table">
+          <ScalarProperty Name="tableIdentify" ColumnName="tableIdentify" />
+          <ScalarProperty Name="tableRealName" ColumnName="tableRealName" />
+          <ScalarProperty Name="tableId" ColumnName="tableId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tableDB">
+      <EntityTypeMapping TypeName="Model1.tableDB">
+        <MappingFragment StoreEntitySet="tableDB">
+          <ScalarProperty Name="sql" ColumnName="sql" />
+          <ScalarProperty Name="tableName" ColumnName="tableName" />
+          <ScalarProperty Name="softname" ColumnName="softname" />
+          <ScalarProperty Name="tableDBId" ColumnName="tableDBId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

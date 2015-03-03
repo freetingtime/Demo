@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="column" EntityType="Model1.Store.column" store:Type="Tables" />
+    <EntitySet Name="columnDB" EntityType="Model1.Store.columnDB" store:Type="Tables" />
+    <EntitySet Name="library" EntityType="Model1.Store.library" store:Type="Tables" />
+    <EntitySet Name="queryResult" EntityType="Model1.Store.queryResult" store:Type="Tables" />
+    <EntitySet Name="table" EntityType="Model1.Store.table" store:Type="Tables" />
+    <EntitySet Name="tableDB" EntityType="Model1.Store.tableDB" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="column">
+    <Key>
+      <PropertyRef Name="columnId" />
+    </Key>
+    <Property Name="columnId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="columnIdentify" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="columnDB">
+    <Key>
+      <PropertyRef Name="columnDBId" />
+    </Key>
+    <Property Name="columnDBId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="columnName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="library">
+    <Key>
+      <PropertyRef Name="libraryId" />
+    </Key>
+    <Property Name="libraryId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="libraryName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="queryResult">
+    <Key>
+      <PropertyRef Name="queryResultId" />
+    </Key>
+    <Property Name="queryResultId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="queryinf" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="table">
+    <Key>
+      <PropertyRef Name="tableId" />
+    </Key>
+    <Property Name="tableId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="tableRealName" Type="nvarchar" MaxLength="100" />
+    <Property Name="tableIdentify" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tableDB">
+    <Key>
+      <PropertyRef Name="tableDBId" />
+    </Key>
+    <Property Name="tableDBId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="softname" Type="nvarchar" MaxLength="100" />
+    <Property Name="tableName" Type="nvarchar" MaxLength="100" />
+    <Property Name="sql" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+</Schema>

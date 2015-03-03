@@ -1,0 +1,14 @@
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\bin\Debug\Table.sdf
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\bin\Debug\TableManager.exe.config
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\bin\Debug\TableManager.exe
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\bin\Debug\TableManager.pdb
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\MainWindow.baml
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\MainWindow.g.cs
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\App.g.cs
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager_Content.g.cs
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager_MarkupCompile.cache
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager.g.resources
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager.Properties.Resources.resources
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager.csproj.GenerateResource.Cache
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager.exe
+c:\users\guo\documents\visual studio 2010\Projects\TableManager\TableManager\obj\x86\Debug\TableManager.pdb

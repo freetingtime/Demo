@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="Model1StoreContainer">
+          <EntitySet Name="column" EntityType="Model1.Store.column" store:Type="Tables" />
+          <EntitySet Name="columnDB" EntityType="Model1.Store.columnDB" store:Type="Tables" />
+          <EntitySet Name="library" EntityType="Model1.Store.library" store:Type="Tables" />
+          <EntitySet Name="queryResult" EntityType="Model1.Store.queryResult" store:Type="Tables" />
+          <EntitySet Name="table" EntityType="Model1.Store.table" store:Type="Tables" />
+          <EntitySet Name="tableDB" EntityType="Model1.Store.tableDB" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="column">
+          <Key>
+            <PropertyRef Name="columnId" />
+          </Key>
+          <Property Name="columnId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="columnIdentify" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="columnDB">
+          <Key>
+            <PropertyRef Name="columnDBId" />
+          </Key>
+          <Property Name="columnDBId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="columnName" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="library">
+          <Key>
+            <PropertyRef Name="libraryId" />
+          </Key>
+          <Property Name="libraryId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="libraryName" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="queryResult">
+          <Key>
+            <PropertyRef Name="queryResultId" />
+          </Key>
+          <Property Name="queryResultId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="queryinf" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="table">
+          <Key>
+            <PropertyRef Name="tableId" />
+          </Key>
+          <Property Name="tableId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="tableRealName" Type="nvarchar" MaxLength="100" />
+          <Property Name="tableIdentify" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tableDB">
+          <Key>
+            <PropertyRef Name="tableDBId" />
+          </Key>
+          <Property Name="tableDBId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="softname" Type="nvarchar" MaxLength="100" />
+          <Property Name="tableName" Type="nvarchar" MaxLength="100" />
+          <Property Name="sql" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="column" EntityType="Model1.column" />
+          <EntitySet Name="columnDB" EntityType="Model1.columnDB" />
+          <EntitySet Name="library" EntityType="Model1.library" />
+          <EntitySet Name="queryResult" EntityType="Model1.queryResult" />
+          <EntitySet Name="table" EntityType="Model1.table" />
+          <EntitySet Name="tableDB" EntityType="Model1.tableDB" />
+          <AssociationSet Name="tablecolumn" Association="Model1.tablecolumn">
+            <End Role="table" EntitySet="table" />
+            <End Role="column" EntitySet="column" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="column">
+          <Key>
+            <PropertyRef Name="columnId" />
+          </Key>
+          <Property Type="Guid" Name="columnId" Nullable="false" />
+          <Property Type="String" Name="columnIdentify" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="table" Relationship="Model1.tablecolumn" FromRole="column" ToRole="table" />
+        </EntityType>
+        <EntityType Name="columnDB">
+          <Key>
+            <PropertyRef Name="columnDBId" />
+          </Key>
+          <Property Type="Guid" Name="columnDBId" Nullable="false" />
+          <Property Type="String" Name="columnName" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="library">
+          <Key>
+            <PropertyRef Name="libraryId" />
+          </Key>
+          <Property Type="Guid" Name="libraryId" Nullable="false" />
+          <Property Type="String" Name="libraryName" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="queryResult">
+          <Key>
+            <PropertyRef Name="queryResultId" />
+          </Key>
+          <Property Type="Guid" Name="queryResultId" Nullable="false" />
+          <Property Type="String" Name="queryinf" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="table">
+          <Key>
+            <PropertyRef Name="tableId" />
+          </Key>
+          <Property Type="Guid" Name="tableId" Nullable="false" />
+          <Property Type="String" Name="tableRealName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="tableIdentify" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="column" Relationship="Model1.tablecolumn" FromRole="table" ToRole="column" />
+        </EntityType>
+        <EntityType Name="tableDB">
+          <Key>
+            <PropertyRef Name="tableDBId" />
+          </Key>
+          <Property Type="Guid" Name="tableDBId" Nullable="false" />
+          <Property Type="String" Name="softname" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="tableName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="sql" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="tablecolumn">
+          <End Type="Model1.table" Role="table" Multiplicity="1" />
+          <End Type="Model1.column" Role="column" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Model1" />
+        <Alias Key="Target" Value="Model1.Store" />
+        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1StoreContainer">
+          <EntitySetMapping Name="column">
+            <EntityTypeMapping TypeName="Model1.column">
+              <MappingFragment StoreEntitySet="column">
+                <ScalarProperty Name="columnIdentify" ColumnName="columnIdentify" />
+                <ScalarProperty Name="columnId" ColumnName="columnId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="columnDB">
+            <EntityTypeMapping TypeName="Model1.columnDB">
+              <MappingFragment StoreEntitySet="columnDB">
+                <ScalarProperty Name="columnName" ColumnName="columnName" />
+                <ScalarProperty Name="columnDBId" ColumnName="columnDBId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="library">
+            <EntityTypeMapping TypeName="Model1.library">
+              <MappingFragment StoreEntitySet="library">
+                <ScalarProperty Name="libraryName" ColumnName="libraryName" />
+                <ScalarProperty Name="libraryId" ColumnName="libraryId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="queryResult">
+            <EntityTypeMapping TypeName="Model1.queryResult">
+              <MappingFragment StoreEntitySet="queryResult">
+                <ScalarProperty Name="queryinf" ColumnName="queryinf" />
+                <ScalarProperty Name="queryResultId" ColumnName="queryResultId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="table">
+            <EntityTypeMapping TypeName="Model1.table">
+              <MappingFragment StoreEntitySet="table">
+                <ScalarProperty Name="tableIdentify" ColumnName="tableIdentify" />
+                <ScalarProperty Name="tableRealName" ColumnName="tableRealName" />
+                <ScalarProperty Name="tableId" ColumnName="tableId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tableDB">
+            <EntityTypeMapping TypeName="Model1.tableDB">
+              <MappingFragment StoreEntitySet="tableDB">
+                <ScalarProperty Name="sql" ColumnName="sql" />
+                <ScalarProperty Name="tableName" ColumnName="tableName" />
+                <ScalarProperty Name="softname" ColumnName="softname" />
+                <ScalarProperty Name="tableDBId" ColumnName="tableDBId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="Model1" >
+        <EntityTypeShape EntityType="Model1.column" Width="1.5" PointX="0.75" PointY="0.75" Height="1.3969734700520817" />
+        <EntityTypeShape EntityType="Model1.columnDB" Width="1.5" PointX="2.75" PointY="0.75" Height="1.3969734700520817" />
+        <EntityTypeShape EntityType="Model1.library" Width="1.5" PointX="0.75" PointY="3.75" Height="1.3969734700520817" />
+        <EntityTypeShape EntityType="Model1.queryResult" Width="1.5" PointX="2.75" PointY="3.75" Height="1.3969734700520817" />
+        <EntityTypeShape EntityType="Model1.table" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5879931640625031" />
+        <EntityTypeShape EntityType="Model1.tableDB" Width="1.5" PointX="4.75" PointY="3.75" Height="1.7790128580729174" />
+        <AssociationConnector Association="Model1.tablecolumn">
+          <ConnectorPoint PointX="4.75" PointY="2.2737333170572906" />
+          <ConnectorPoint PointX="2.25" PointY="2.2737333170572906" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

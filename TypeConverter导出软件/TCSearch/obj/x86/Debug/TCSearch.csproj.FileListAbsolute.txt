@@ -1,0 +1,6 @@
+c:\users\guo\documents\visual studio 2010\Projects\TCSearch\TCSearch\bin\Debug\TCSearch.exe
+c:\users\guo\documents\visual studio 2010\Projects\TCSearch\TCSearch\bin\Debug\TCSearch.pdb
+c:\users\guo\documents\visual studio 2010\Projects\TCSearch\TCSearch\obj\x86\Debug\TCSearch.exe
+c:\users\guo\documents\visual studio 2010\Projects\TCSearch\TCSearch\obj\x86\Debug\TCSearch.pdb
+C:\Users\guo\Documents\Visual Studio 2010\Projects\TCSearch\TCSearch\bin\Debug\TCSearch.XML
+C:\Users\guo\Documents\Visual Studio 2010\Projects\TCSearch\TCSearch\bin\Debug\TCSearch.exe.config

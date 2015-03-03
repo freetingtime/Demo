@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="column" EntityType="Model1.column" />
+    <EntitySet Name="columnDB" EntityType="Model1.columnDB" />
+    <EntitySet Name="library" EntityType="Model1.library" />
+    <EntitySet Name="queryResult" EntityType="Model1.queryResult" />
+    <EntitySet Name="table" EntityType="Model1.table" />
+    <EntitySet Name="tableDB" EntityType="Model1.tableDB" />
+    <AssociationSet Name="tablecolumn" Association="Model1.tablecolumn">
+      <End Role="table" EntitySet="table" />
+      <End Role="column" EntitySet="column" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="column">
+    <Key>
+      <PropertyRef Name="columnId" />
+    </Key>
+    <Property Type="Guid" Name="columnId" Nullable="false" />
+    <Property Type="String" Name="columnIdentify" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="table" Relationship="Model1.tablecolumn" FromRole="column" ToRole="table" />
+  </EntityType>
+  <EntityType Name="columnDB">
+    <Key>
+      <PropertyRef Name="columnDBId" />
+    </Key>
+    <Property Type="Guid" Name="columnDBId" Nullable="false" />
+    <Property Type="String" Name="columnName" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="library">
+    <Key>
+      <PropertyRef Name="libraryId" />
+    </Key>
+    <Property Type="Guid" Name="libraryId" Nullable="false" />
+    <Property Type="String" Name="libraryName" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="queryResult">
+    <Key>
+      <PropertyRef Name="queryResultId" />
+    </Key>
+    <Property Type="Guid" Name="queryResultId" Nullable="false" />
+    <Property Type="String" Name="queryinf" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="table">
+    <Key>
+      <PropertyRef Name="tableId" />
+    </Key>
+    <Property Type="Guid" Name="tableId" Nullable="false" />
+    <Property Type="String" Name="tableRealName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tableIdentify" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="column" Relationship="Model1.tablecolumn" FromRole="table" ToRole="column" />
+  </EntityType>
+  <EntityType Name="tableDB">
+    <Key>
+      <PropertyRef Name="tableDBId" />
+    </Key>
+    <Property Type="Guid" Name="tableDBId" Nullable="false" />
+    <Property Type="String" Name="softname" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tableName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="sql" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="tablecolumn">
+    <End Type="Model1.table" Role="table" Multiplicity="1" />
+    <End Type="Model1.column" Role="column" Multiplicity="*" />
+  </Association>
+</Schema>
