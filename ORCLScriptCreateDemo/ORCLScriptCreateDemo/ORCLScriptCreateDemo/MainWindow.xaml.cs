@@ -94,7 +94,7 @@ namespace ORCLScriptCreateDemo
         }
 
         /// <summary>
-        ///按依赖顺序导出所有非物理表对象,并将创建脚本写入文件
+        ///按依赖顺序导出所有非物理表对象
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
